@@ -45,3 +45,18 @@ body {
   font-size: 1.3rem;
   color: var(--mainOrange);
 }
+.cart-icon2 {
+  font-size: 10rem;
+  color: var(--mainOrange);
+}
+.shop {
+  font-weight: bold;
+  color: var(--mainWhite);
+  outline: none;
+  border: none;
+  background-color: var(--mainDark);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+.shop:hover {
+  background-color: var(--mainOrange);
+}
