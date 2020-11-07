@@ -28,10 +28,14 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
-  background: var(--mainBlue);
+  background: var(--mainWhite);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   .nav-link {
-      color: var(--mainWhite) !important;
+      color: var(--mainDark) !important;
       font-size: 1.3rem;
       text-transform: capitalize;
+  }
+  .navbar-brand {
+      color: var(--mainDark) !important;
   }
 `

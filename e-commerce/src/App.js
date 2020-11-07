@@ -9,6 +9,7 @@ import Details from "./components/Details";
 import Cart from "./components/Cart";
 import NotFound from "./components/NotFound";
 import Modal from "./components/Modal";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
           <Route component={ NotFound } />
         </Switch>
         <Modal/>
+        <Footer/>
       </>
     );
   }

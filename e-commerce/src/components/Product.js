@@ -86,7 +86,6 @@ const ProductWrapper = styled.div`
         color: var(--mainWhite);
         border: none;
         outline: none;
-        border-radius: 5px;
     }
     .cart-btn:hover {
         background-color: var(--mainDark);
