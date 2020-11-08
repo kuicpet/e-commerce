@@ -5,6 +5,7 @@ import EmptyCart from "./EmptyCart";
 import { ProductConsumer } from "../Context";
 import CartList from "./CartList";
 import CartTotall from "./CartTotals";
+import Shopping from './Shopping';
 
 
 export default class Cart extends Component {
@@ -20,6 +21,7 @@ export default class Cart extends Component {
                                 <Title name="your" title="cart" />
                                 <CartColumns />
                                 <CartList value={value} />
+                                <Shopping />
                                 <CartTotall value={value} history={this.props.history} />
                                 </> 
                             )
